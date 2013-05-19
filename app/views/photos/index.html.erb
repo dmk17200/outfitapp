@@ -1,5 +1,5 @@
 <h1>Photos</h1>
-
+#thes will be the views and look at seeds file
 <p><%= link_to 'Add a New Photo', new_photo_url %></p>
 
 <table>
@@ -20,7 +20,7 @@
       <td><%= photo.description %></td>
       <td><%= photo.approved %></td>
       <td><%= photo.user_id %></td>
-  
+
       <td><%= link_to 'Show', photo_url(photo) %></td>
       <td><%= link_to 'Edit', edit_photo_url(photo) %></td>
       <td><%= link_to 'Destroy', photo_url(photo), method: 'delete', data: { confirm: "Do you really want to delete this photo?" } %></td>
